@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.santander.anallytics.Main2Activity"
+    tools:showIn="@layout/activity_main2"
+    android:background="#ffffff"
+
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="20dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:layout_marginTop="0dp">
+
+
+    <TextView
+        android:id="@+id/labelTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_marginTop="200dp"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_marginStart="54dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/labelSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Senha"
+        android:textSize="18dp"
+        android:layout_marginTop="273dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_marginStart="54dp"
+        android:layout_alignParentStart="true"/>
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/csa"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="57dp"
+        android:layout_below="@+id/labelTitulo"
+        android:layout_alignStart="@+id/labelSenha" />
+
+    <Button
+        android:id="@+id/btnAcessar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Acessar"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/editLogin"
+        android:layout_alignEnd="@+id/editLogin" />
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="57dp"
+        android:layout_below="@+id/labelSenha"
+        android:layout_alignStart="@+id/labelSenha" />
+
+</RelativeLayout>

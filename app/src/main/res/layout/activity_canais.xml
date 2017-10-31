@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_canais"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.santander.anallytics.CanaisActivity"
+    android:background="#ffff">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:stretchColumns="3"
+        android:id="@+id/tableLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="-50px">
+
+            <TextView
+                android:id="@+id/textView0"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Sigla  "
+                android:textSize="22sp"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Resumo  "
+                android:textSize="22sp"
+                android:layout_width="158dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Analista CSA       "
+                android:textSize="22sp"
+                android:layout_width="match_parent" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:stretchColumns="3"
+            android:id="@+id/tableLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="10px"
+            android:paddingTop="10px">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MBB"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_height="wrap_content"
+                    android:text="Canal Mobile Banking PF para efetuar consultas e transacoes financeiras, bem como, enviar emails e SMS alertas "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="154dp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Juliana Rosa Guedes"
+                    android:textSize="11sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MBJ"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_height="wrap_content"
+                    android:text="Canal Mobile Banking para Pessoa Juridica"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="100dp"  />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juliana Rosa Guedes"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Way"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aplicativo mobile para gerenciamento de cartoes"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juliana Mayumi Suzuki"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IBF"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Canal Internet Banking para Pessoa Fisica"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Antonio Celso Passoto"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IBJ"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Internet Banking para Pessoa Juridica"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Antonio Celso Passoto"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Portal CIC"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="renovacao tecnologica do Contact Center Cartoes Brasil seguindo o modelo coorporativo de aplicativo Front End Unico"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ricardo L. M. Caceres"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JH"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Superlinha Santander, utilizado no atendimento as funcionalidades de contas correntes e poupanca"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dip"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MSG"
+                        android:textSize="11sp" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Juliana Rosa Guedes"
+                        android:textSize="11sp"
+                        android:layout_marginLeft="5dp"/>
+
+
+                </TableRow>
+
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PG"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Arquitetura de servicos de canais, orquestra e padroniza o desenvolvimento de transacoes de negocios"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Andreia Gomes"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VX"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juliana Rosa Guedes"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp"/>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

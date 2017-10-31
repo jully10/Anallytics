@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="383dp"
+    android:background="#ffffff"
+    android:id="@+id/nav_quarta"
+    android:layout_height="560dp">
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Comex"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Financeira"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="GCB"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Meios de Pagamento"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Riscos"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Cash/Core"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Emprestimos"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="270dp"
+        android:layout_height="37dp"
+        android:background="@color/colorAccent"
+        android:text="Canais/Portais"
+        android:layout_marginTop="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="100px"
+        android:paddingRight="100px" />
+
+</RelativeLayout>

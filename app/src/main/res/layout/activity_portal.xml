@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_portal"
+    tools:context="com.example.santander.anallytics.Portal">
+
+
+    <TextView
+        android:id="@+id/acesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="acessoGoogle"
+        android:text="Internet"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="260dp"/>
+
+    <TextView
+        android:id="@+id/buttonx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="proximaTela"
+        android:text="Voltar"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <WebView
+        android:id="@+id/webViewlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="130dp"
+            android:layout_y="2dp" />
+    </WebView>
+</RelativeLayout>

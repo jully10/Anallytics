@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title=""
+            android:id="@+id/nav_primeirasx"/>
+
+        <item
+
+            android:id="@+id/nav_primeira"
+            android:icon="@drawable/homx"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_segunda"
+            android:icon="@drawable/links"
+            android:title="LINKS UTEIS" />
+        <item
+            android:id="@+id/nav_terceira"
+            android:icon="@drawable/num"
+            android:title="CONTACTOS" />
+
+        <item
+            android:id="@+id/nav_quarta"
+            android:icon="@drawable/def"
+            android:title="SISTEMAS CSA" />
+
+
+        <item
+            android:id="@+id/nav_portal"
+            android:icon="@drawable/group"
+            android:title="PORTAL CSA" />
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_segunda"
+    android:layout_width="384dp"
+    android:layout_height="510dp"
+    android:background="#ffffff"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+
+        android:background="#ffffff"
+        android:stretchColumns="3"
+        android:id="@+id/tableLayout1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/textView"
+
+                android:text="Nome"
+                android:textSize="20sp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorAccent"
+                android:layout_width="130dp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:text="Link"
+                android:textSize="20sp"
+                android:background="@color/colorAccent"
+                android:layout_width="250dp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tableLayout1"
+        android:layout_alignParentStart="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:stretchColumns="3"
+            android:id="@+id/tableLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dip"
+                android:background="#ffffff">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="123dp"
+                    android:text="BMC Remedy Mid Tier 7.1 Login"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:text="http://http://gscbrasilpr01.bs.br.bsch:8082/arsys/shared/login.jsp?/arsys/home"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="170dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="123dp"
+                    android:text="Espaço de Acesso"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="11dp"/>
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="123dp"
+                    android:text="http://wfs.gsb/Site/Home/CSSG.ashx "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="123dp"
+                    android:text="GUIA"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="123dp"
+                    android:text="https://sociedades.aacc.gs.corp/eplogon "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="123dp"
+                    android:text="STA-BACEN QQ"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="123dp"
+                    android:text="https://sta.bcb.gov.br/sta/dologin "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="123dp"
+                    android:text="ISBANIA- Trocar senha"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="123dp"
+                    android:text="http://isbania.intranet.banesto.es/apps/isbania/portal/jer00001.nsf/FWInicio?readform "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="123dp"
+                    android:text="BIC - Base Isban Conhecimento "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="123dp"
+                    android:text="http://portaldotnet.sb/bic-web/ "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="123dp"
+                    android:text="Isban Intranet"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="123dp"
+                    android:text="@string/http_isbania_isban_gs_corp_isb_portal_ens_estatico_alp_cintra_compintrapriv_e_html_portalisbgeneral_html_tipocabecera_b_nagportal_portal_colaborador_idiomacorp_pt_br_tituloinicio_portal_colaborador_agregador_isbania_agregador_isbania"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="123dp"
+                    android:text="Intranet Grupo Santander Brasil "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="123dp"
+                    android:text="http://intranet.sb/ "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="2dip"
+                android:background="#ffffff"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="123dp"
+                    android:text="Base de Conhecimento Gap Team "
+                    android:textSize="11sp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="70dp"
+                    android:text="http://gscbrasilp...br."
+                    android:textSize="11sp"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </TableRow>
+
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

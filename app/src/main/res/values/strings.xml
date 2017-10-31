@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_abertura">abertura</string>
+    <string name="title_activity_layout_primeira">layout_primeira</string>
+    <string name="title_activity_layout_segunda">layout_segunda</string>
+    <string name="title_activity_layout_terceira">layout_terceira</string>
+    <string name="title_activity_layout_quarta">layout_quarta</string>
+    <string name="title_activity_layout_portal">layout_portal</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="http_isbania_isban_gs_corp_isb_portal_ens_estatico_alp_cintra_compintrapriv_e_html_portalisbgeneral_html_tipocabecera_b_nagportal_portal_colaborador_idiomacorp_pt_br_tituloinicio_portal_colaborador_agregador_isbania_agregador_isbania"><![CDATA[http://isbania.isban.gs.corp/ISB_Portal_ENS/Estatico/ALP_CINTRA_CompIntraPriv_E/Html/portalISBGeneral.html?tipoCabecera=B&nAgPortal=PORTAL_COLABORADOR&idiomaCorp=pt-BR&tituloInicio=Portal Colaborador&agregador=Isbania&agregador=Isbania]]></string>
+    <string name="title_activity_relatorio">Activity_relatorio</string>
+    <string name="title_activity_canais1">Canais1Activity</string>
+</resources>
+
+
